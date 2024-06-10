@@ -170,7 +170,7 @@ killall bird
 ### windows terminal commands
 
 ```bash
-# run commands in terminal as admin
+# SYSTEM REPAIR & UPDATES
 
 # scan and repair system files (tampering/corruption)
 sfc.exe /SCANNOW
@@ -181,11 +181,22 @@ rstrui.exe
 # fix windows update errors
 DISM /online /cleanup-image /restorehealth
 
+# open system properties
+msconfig
+```
+
+```bash
+# FILES & DISKS
+
 # windows classic app uninstaller (compact list style)
 appwiz.cpl
 
 # disk management
 diskmgmt.msc
+```
+
+```bash
+# WINDOWS ACTIVATION
 
 # activate license by phone
 slui 4
@@ -204,9 +215,6 @@ slmgr.vbs /dlv
 
 # show license expiry
 slmgr.vbs /xpr
-
-# open system properties
-msconfig
 ```
 
 ## linux
