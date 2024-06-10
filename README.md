@@ -100,11 +100,12 @@ networksetup -getinfo wi-fi
 
 # check for macos updates & install
 softwareupdate -i -a
+
+# restart iCloud services
+killall bird
 ```
 
 ## windows
-
-todo.
 
 ### files and data
 
