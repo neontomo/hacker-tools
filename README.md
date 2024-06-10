@@ -41,7 +41,7 @@ todo.
 
 ### data recovery and backup
 
-- **fsck** is a command-line utility that can be used to check and repair filesystems, often able to recover data from bad sectors even when other tools fail. sometimes useful on other operating systems as well, if booted from a live cd.
+- **fsck** is a built-in command-line utility that can be used to check and repair filesystems, often able to recover data from bad sectors even when other tools fail. sometimes useful on other operating systems as well, if booted from a live cd.
 
 ### specs, monitoring and hardware health
 
