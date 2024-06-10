@@ -27,13 +27,13 @@ keep these on a usb drive for easy access, and look for portable versions.
 
 ## contributing
 
-please refer to the [contributing.md](contributing.md) file for more information on how to contribute.
+please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information on how to contribute.
 
 ## macos
 
 ### files and data
 
-- **[homebrew](https://brew.sh/)** is a package manager for macos. it allows you to install software packages from the command line.
+- **[Homebrew](https://brew.sh/)** is a package manager. it allows you to install, manage and update software packages from the command line instead of using the app store or downloading and installing them manually.
 
 ### malware removal and security
 
@@ -56,7 +56,7 @@ todo.
 ```bash
 # run commands in terminal
 
-# keep screen on and prevent sleep
+# keep screen on & prevent sleep
 caffeinate -d
 
 # check network speed
@@ -67,11 +67,14 @@ ifconfig
 
 # check wifi info
 networksetup -getinfo wi-fi
+
+# check for macos updates & install
+softwareupdate -i -a
 ```
 
 ### other tools
 
-- **[iterm2](https://iterm2.com/)** is a replacement for terminal and the successor to iterm. iterm2 brings the terminal into the modern age with features like drop-down windows, split panes, and ai that can autocomplete your commands.
+- **[iTerm2](https://iterm2.com/)** is a replacement for terminal and the successor to iterm. iterm2 brings the terminal into the modern age with features like drop-down windows, split panes, and AI that can autocomplete your commands.
 
 ## windows
 
@@ -79,63 +82,63 @@ todo.
 
 ### files and data
 
-- **[ccleaner](https://www.ccleaner.com/)** is a freeware system optimization, privacy and cleaning tool. it removes unused files from your system allowing windows to run faster and freeing up valuable hard disk space.
+- **[CCleaner](https://www.ccleaner.com/)** is a freeware system optimization, privacy and cleaning tool. it removes unused files from your system allowing windows to run faster and freeing up valuable hard disk space.
 
-- **[bleachbit](https://www.bleachbit.org/)** is a free and open-source disk space cleaner, privacy manager, and computer system optimizer. it can free up disk space, maintain privacy, and remove junk. similar to ccleaner.
+- **[BleachBit](https://www.bleachbit.org/)** is a free and open-source disk space cleaner, privacy manager, and computer system optimizer. it can free up disk space, maintain privacy, and remove junk. similar to ccleaner.
 
-- **[7-zip](https://www.7-zip.org/)** is a file archiver with a high compression ratio. it is free software with open source.
+- **[7-Zip](https://www.7-zip.org/)** is a file archiver with a high compression ratio. it is free software with open source.
 
-- **[qbittorrent](https://www.qbittorrent.org/)** is a free, open-source, and cross-platform bittorrent client. it aims to provide an open-source software alternative to µtorrent.
+- **[qBittorrent](https://www.qbittorrent.org/)** is a free, open-source, and cross-platform bittorrent client. it aims to provide an open-source software alternative to µtorrent.
 
-- **[checksum control](https://checksumcontrol.sourceforge.io/)** is a program to verify and write checksumfiles. it supports sfv and md5, even some exotic md5 file types. very easy to use, with a wizard interface.
+- **[Checksum Control](https://checksumcontrol.sourceforge.io/)** is a program to verify and write checksumfiles. it supports sfv and md5, even some exotic md5 file types. very easy to use, with a wizard interface.
 
-- **[revo uninstaller](https://www.revouninstaller.com/)** is a freeware uninstall utility. it has powerful features to uninstall programs scanning for leftover files, folders, and registry entries after uninstall.
+- **[Revo Uninstaller](https://www.revouninstaller.com/)** is a freeware uninstall utility. it has powerful features to uninstall programs scanning for leftover files, folders, and registry entries after uninstall.
 
-- **[windirstat](https://windirstat.net/)** is a disk usage statistics viewer and cleanup tool for various versions of microsoft windows.
+- **[WinDirStat](https://windirstat.net/)** is a disk usage statistics viewer and cleanup tool for various versions of microsoft windows.
 
 ### malware removal and security
 
-- **[emsisoft emergency kit](https://www.emsisoft.com/en/home/emergencykit/)** is a collection of programs that can be used without software installation to scan for malware and clean infected computers.
+- **[Emsisoft Emergency Kit](https://www.emsisoft.com/en/home/emergencykit/)** is a collection of programs that can be used without software installation to scan for malware and clean infected computers.
 
-- **[killemall](https://www.d7xtech.com/killemall/)** is a portable utility to close all non-essential programs and restart processes. it is designed to be used in emergency situations to restart processes that have been terminated by malware.
+- **[KillEmAll](https://www.d7xtech.com/killemall/)** is a portable utility to close all non-essential programs and restart processes. it is designed to be used in emergency situations to restart processes that have been terminated by malware.
 
 ### data recovery and backup
 
-- **[recuva](https://www.ccleaner.com/recuva)** can recover files that have been accidentally deleted from your computer. this includes files emptied from the recycle bin as well as images and other files that have been deleted by user error from digital camera memory cards or mp3 players.
+- **[Recuva](https://www.ccleaner.com/recuva)** can recover files that have been accidentally deleted from your computer. this includes files emptied from the recycle bin as well as images and other files that have been deleted by user error from digital camera memory cards or mp3 players.
 
 ### usb and bootable drives
 
-- **[rufus](https://rufus.ie/)** is a utility that helps format and create bootable usb flash drives, such as usb keys/pendrives, memory sticks, etc.
+- **[Rufus](https://rufus.ie/)** is a utility that helps format and create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc.
 
-- **[unetbootin](https://unetbootin.github.io/)** allows you to create bootable live usb drives for ubuntu and other linux distributions without burning a cd.
+- **[UNetbootin](https://unetbootin.github.io/)** allows you to create bootable live usb drives for ubuntu and other linux distributions without burning a CD.
 
-- **[wincdemu](https://wincdemu.sysprogs.org/)** is an open-source cd/dvd/bd emulator - a tool that allows you to mount optical disc images by simply clicking on them in windows explorer.
+- **[WinCDEmu](https://wincdemu.sysprogs.org/)** is an open-source cd/dvd/bd emulator - a tool that allows you to mount optical disc images by simply clicking on them in windows explorer.
 
 ### specs, monitoring and hardware health
 
-- **[speccy](https://www.ccleaner.com/speccy)** is an advanced system information tool for your pc. need to find out what's inside your computer? speccy will give you all the information you need.
+- **[Speccy](https://www.ccleaner.com/speccy)** is an advanced system information tool for your PC. need to find out what's inside your computer? speccy will give you all the information you need.
 
-- **[hwinfo](https://www.hwinfo.com/)** is a professional hardware information and diagnostic tool supporting the latest components, industry technologies, and standards.
+- **[HWiNFO](https://www.hwinfo.com/)** is a professional hardware information and diagnostic tool supporting the latest components, industry technologies, and standards.
 
-- **[cpu-z](https://www.cpuid.com/softwares/cpu-z.html)** is a freeware system profiling and monitoring application for microsoft windows and android that detects the central processing unit, ram, motherboard chipset, and other hardware features of a modern personal computer or android device.
+- **[CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)** is a freeware system profiling and monitoring application that detects the CPU, ram, motherboard chipset, and other hardware features.
 
-- **[gpu-z](https://www.techpowerup.com/gpuz/)** is a lightweight utility designed to give you all information about your video card and gpu.
+- **[GPU-Z](https://www.techpowerup.com/gpuz/)** is a lightweight utility designed to give you all information about your video card and GPU.
 
-- **[ssd-z](https://aezay.dk/aezay/ssdz/)** is a free software that gathers information on some of the main components of your system, including your ssd or hard drive, so you can monitor its health and performance.
+- **[SSD-Z](https://aezay.dk/aezay/ssdz/)** is a free software that gathers information on some of the main components of your system, including your SSD or hard drive, so you can monitor its health and performance.
 
-- **[crystaldiskinfo](https://crystalmark.info/en/software/crystaldiskinfo/)** is a utility used to monitor the health of hard drives and solid-state drives. it can display various attributes of the drive, such as temperature, power-on hours, and the number of times it has been powered on.
+- **[CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/)** is a utility used to monitor the health of hard drives and solid-state drives. it can display various attributes of the drive, such as temperature, power-on hours, and the number of times it has been powered on.
 
 ### networking and connectivity
 
-- **[putty](https://www.putty.org/)** is a free and open-source terminal emulator, serial console, and network file transfer application. it supports several network protocols, including scp, ssh, telnet, rlogin, and raw socket connection.
+- **[PuTTY](https://www.putty.org/)** is a free and open-source terminal emulator, serial console, and network file transfer application. it supports several network protocols, including SCP, SSH and Telnet.
 
-- **[winscp](https://winscp.net/eng/index.php)** is a free and open-source sftp, scp, ftps, and ftp client for microsoft windows. its main function is secure file transfer between a local and a remote computer.
+- **[WinSCP](https://winscp.net/eng/index.php)** is a free and open-source sFTP, SCP, FTPs, and FTP client. its main function is secure file transfer between a local and a remote computer.
 
-- **[teamviewer](https://www.teamviewer.com/)** is a proprietary software application for remote control, desktop sharing, online meetings, web conferencing, and file transfer between computers.
+- **[TeamViewer](https://www.teamviewer.com/)** is a proprietary software application for remote control, desktop sharing, online meetings, web conferencing, and file transfer between computers.
 
-- **[wireshark](https://www.wireshark.org/)** is a free and open-source packet analyzer. it is used for network troubleshooting, analysis, software and communications protocol development, and education.
+- **[Wireshark](https://www.wireshark.org/)** is a free and open-source packet analyzer. it is used for network troubleshooting, analysis, software and communications protocol development, and education.
 
-- **[react.exe](https://www.d7xtech.com/free-software/react/)** is a small utility for windows activation that offers options like supressing activation prompts, opening the activation window from an easy panel and checking the activation status.
+- **[ReAct.exe](https://www.d7xtech.com/free-software/react/)** is a small utility for windows activation that offers options like supressing activation prompts, opening the activation window from an easy panel and checking the activation status.
 
 ### windows terminal commands
 
@@ -143,13 +146,13 @@ todo.
 # run commands in terminal as admin
 
 # scan and repair system files (tampering/corruption)
-sfc.exe /scannow
+sfc.exe /SCANNOW
 
 # restore from restore point
 rstrui.exe
 
 # fix windows update errors
-dism /online /cleanup-image /restorehealth
+DISM /online /cleanup-image /restorehealth
 
 # windows classic app uninstaller (compact list style)
 appwiz.cpl
@@ -183,7 +186,7 @@ msconfig
 
 ### files and data
 
-- **[gparted](https://gparted.org/)** is a free partition editor for graphically managing your disk partitions.
+- **[GParted](https://gparted.org/)** is a free partition editor for graphically managing your disk partitions.
 
 ### malware removal and security
 
@@ -191,9 +194,9 @@ todo.
 
 ### data recovery and backup
 
-- **fsck** is a command-line utility that can be used to check and repair filesystems, often able to recover data from bad sectors even when other tools fail. sometimes useful on other operating systems as well, if booted from a live cd.
+- **fsck** is a built-in command-line utility that can be used to check and repair filesystems, often able to recover data from bad sectors even when other tools fail. sometimes useful on other operating systems as well, if booted from a live cd.
 
-- **[testdisk](https://www.cgsecurity.org/wiki/testdisk)** is powerful free data recovery software. it was primarily designed to help recover lost partitions and/or make non-booting disks bootable again when these symptoms are caused by faulty software, certain types of viruses, or human error.
+- **[TestDisk](https://www.cgsecurity.org/wiki/testdisk)** is powerful free data recovery software. it was primarily designed to help recover lost partitions and/or make non-booting disks bootable again when these symptoms are caused by faulty software, certain types of viruses, or human error.
 
 ### specs, monitoring and hardware health
 
@@ -201,7 +204,7 @@ todo.
 
 ### networking and connectivity
 
-- **[nmap](https://nmap.org/)** is a free and open-source network scanner. nmap is used to discover hosts, ports and services on a computer network by sending packets and analyzing the responses.
+- **[Nmap](https://nmap.org/)** is a free and open-source network scanner. it is used to discover hosts, ports and services on a computer network by sending packets and analyzing the responses.
 
 ### linux terminal commands
 
