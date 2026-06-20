@@ -1,27 +1,34 @@
-# license
+# activation
 
 ## commands
 
 run these commands as admin in `cmd.exe` as needed.
 
+### info
 ```bash
-# activate license by phone
+# shows license info
+slmgr.vbs /dlv
+
+# shows expiry info
+slmgr.vbs /xpr
+```
+
+### activate
+```bash
+# activate by phone call to Microsoft
 slui 4
 
-# activate license by product key
-slmgr.vbs /ipk <valid product key>
+# activate with product key
+slmgr.vbs /ipk <product key>
+```
 
-# uninstall product key and go back to trial state
+### reset product key
+```bash
+# uninstalls product key and returns to trial
 slmgr.vbs /upk
 
 # clear product key from registry
 slmgr.vbs /cpky
-
-# view license info
-slmgr.vbs /dlv
-
-# show license expiry
-slmgr.vbs /xpr
 ```
 
 ## apps
