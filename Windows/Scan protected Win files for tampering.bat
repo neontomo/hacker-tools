@@ -1,2 +1,0 @@
-sfc.exe /SCANNOW
-pause
