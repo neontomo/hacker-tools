@@ -5,7 +5,7 @@
 run these commands as admin in `cmd.exe` as needed.
 
 ### info
-```bash
+```bat
 # shows license info
 slmgr.vbs /dlv
 
@@ -14,7 +14,7 @@ slmgr.vbs /xpr
 ```
 
 ### activate
-```bash
+```bat
 # activate by phone call to Microsoft
 slui 4
 
@@ -23,7 +23,7 @@ slmgr.vbs /ipk <product key>
 ```
 
 ### reset product key
-```bash
+```bat
 # uninstalls product key and returns to trial
 slmgr.vbs /upk
 

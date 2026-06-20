@@ -1,4 +1,13 @@
-# recovery
+# disks and recovery
+
+## commands
+
+run these commands by hitting `Win` + `R` and then typing in the command.
+
+```bat
+# open disk management
+diskmgmt.msc
+```
 
 ## apps
 

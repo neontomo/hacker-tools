@@ -4,7 +4,7 @@
 
 run these commands by hitting `Win` + `R` and then typing in the command.
 
-```bash
+```bat
 # open windows classic app uninstaller (compact list style)
 appwiz.cpl
 ```

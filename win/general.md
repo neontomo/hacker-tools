@@ -4,7 +4,7 @@
 
 run these commands by hitting `Win` + `R` and then typing in the command.
 
-```bash
+```bat
 # get computer details (`about` menu)
 control.exe system
 
