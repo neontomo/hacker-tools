@@ -2,7 +2,7 @@
 
 ## commands
 
-**fsck** is a built-in command-line util that checks and repairs filesystems with bad sectors. sometimes useful on other OSs if booted from a live CD. for example, fixing Windows from Linux live CD.
+**fsck** is a built-in command-line util that checks and repairs filesystems with bad sectors. sometimes useful on other OSs if booted from a live CD. for example, fixing Windows from Linux.
 
 ### dry-run scan for drive corruption
 ```sh
