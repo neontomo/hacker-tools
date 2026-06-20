@@ -14,4 +14,3 @@ control.exe system
 :: open system config
 msconfig
 ```
-

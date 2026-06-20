@@ -34,4 +34,6 @@ networksetup -getinfo wi-fi | grep "Router:" | grep -v "IPv6" | awk '{print $2}'
 
 ## apps
 
-- **[nmap](https://nmap.org/)** is a free and open-source network scanner. nmap is used to discover hosts, ports and services on a computer network by sending packets and analyzing the responses.
+- **[proxyman](https://proxyman.com)** is a free app to capture, decrypt, and mock HTTP requests/responses with powerful debugging tools.
+
+- **[nmap](https://nmap.org)** is a free and open-source network scanner. nmap is used to discover hosts, ports and services on a computer network by sending packets and analyzing the responses.
