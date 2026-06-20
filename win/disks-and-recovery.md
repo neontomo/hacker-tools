@@ -2,10 +2,10 @@
 
 ## commands
 
-run these commands by hitting `Win` + `R` and then typing in the command.
+run these commands by hitting `win` + `r` and then typing in the command.
 
+### open disk management
 ```bat
-# open disk management
 diskmgmt.msc
 ```
 

@@ -2,13 +2,16 @@
 
 ## commands
 
-run these commands by hitting `Win` + `R` and then typing in the command.
+run these commands by hitting `win` + `r` and then typing in the command.
+
+### computer details
+```bat
+:: open About Computer
+control.exe system
+```
 
 ```bat
-# get computer details (`about` menu)
-control.exe system
-
-# open system properties
+:: open system config
 msconfig
 ```
 

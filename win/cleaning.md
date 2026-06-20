@@ -2,10 +2,10 @@
 
 ## commands
 
-run these commands by hitting `Win` + `R` and then typing in the command.
+run these commands by hitting `win` + `r` and then typing in the command.
 
+### open win classic app uninstaller (compact list style)
 ```bat
-# open windows classic app uninstaller (compact list style)
 appwiz.cpl
 ```
 
