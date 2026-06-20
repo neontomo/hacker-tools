@@ -26,7 +26,7 @@
 
 ## commands
 
-### restart icloud services
+### restart iCloud services
 ```sh
 killall bird
 ```
